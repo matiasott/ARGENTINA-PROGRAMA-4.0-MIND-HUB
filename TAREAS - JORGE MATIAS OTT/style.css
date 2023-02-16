@@ -146,15 +146,15 @@ h3 {
   color: rgb(248, 225, 46);
   font-size: 25px;
   width: 100%;
-  margin-top: 5px;
+  margin-top: 12px;
   margin-bottom: 5px;
 }
 
 h4{
-  color: rgb(248, 225, 46);
+  color: rgb(196, 185, 108);
   font-size: 18px;
   width: 100%;
-  margin-top: 5px;
+  margin-top: 8px;
   margin-bottom: 5px;
 }
 
@@ -238,4 +238,15 @@ dd{
 
 dd > a {
   color: rgb(196, 185, 108);
+}
+
+ol{
+  margin-left: 30px;
+  list-style-type:lower-latin;
+}
+
+li {
+  color: rgb(95, 161, 153);
+  width: 100%;
+  font-size: 20px;
 }
