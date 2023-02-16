@@ -62,7 +62,6 @@ nav a {
   animation-duration: 2s;
 }
 
-
 @keyframes slideinnav {
   from {
     margin-right: 150%;
@@ -77,7 +76,6 @@ nav a {
   }
 }
 
-
 nav a:hover {
   color: rgb(95, 161, 153);
   text-decoration: underline;
@@ -86,10 +84,6 @@ nav a:hover {
 .active {
   color: rgb(95, 161, 153);
 }
-
-
-
-
 
 h2 {
   background-color: black;
@@ -101,7 +95,6 @@ h2 {
   /* valores predeterminados animaciones */
   animation-name: slideinh2;
   animation-duration: 1s;
-  
 }
 
 @keyframes slideinh2 {
@@ -116,11 +109,8 @@ h2 {
   }
 }
 
-
-
 .contenedor-principal{
   width: 75%;
-  
 }
 
 .separadorContacto{
@@ -194,7 +184,6 @@ th{
   border: 1px solid wheat;
   border-collapse: collapse;
   text-align: center;
-
 }
 
 td{
