@@ -203,6 +203,8 @@ td{
 table tr td {
   width: 1%;
   white-space: nowrap;
+  padding-left: 3px;
+  padding-right: 3px;
 }
 
 
