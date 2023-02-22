@@ -5,6 +5,10 @@
   background-color: black;
 }
 
+body{
+  background-color: black;
+}
+
 .distribucion {
   display: flex;
   flex-direction: row; 
@@ -171,7 +175,7 @@ p > a {
 }
 
 table{
-  width: 60%;
+  width: 50%;
   border: 1px solid wheat;
   margin-bottom: 30px;
   border-collapse: collapse;
@@ -179,21 +183,27 @@ table{
 }
 
 th{
-  width: 15%;
+  width: 10%;
   color: rgb(248, 225, 46);
   border: 1px solid wheat;
   border-collapse: collapse;
   text-align: center;
+  vertical-align: middle;
 }
 
 td{
-  width: 25%;
+  width: 10%;
   color: rgb(95, 161, 153);
   border: 1px solid wheat;
   border-collapse: collapse;
   text-align: center;
+  vertical-align: middle;
 }
 
+table tr td {
+  width: 1%;
+  white-space: nowrap;
+}
 
 
 .text-justificado{
@@ -238,4 +248,44 @@ li {
   color: rgb(95, 161, 153);
   width: 100%;
   font-size: 20px;
+}
+
+input{
+  color: black;
+  background-color: rgb(196, 185, 108);
+  text-align: left;
+  padding-left: 5px;
+}
+
+label{
+  color: rgb(95, 161, 153);
+}
+
+.spaninput{
+  width: 500px;
+}
+
+.labelclaves{
+  color: rgb(248, 225, 46);
+}
+
+button{
+  background-color: rgb(95, 161, 153);
+  width: 100px;
+  color:black;
+}
+
+.botonReset{
+  background-color: rgb(95, 161, 153);
+  width: 100px;
+  color:black; 
+}
+
+.listaForm{
+  font-size: 13px;
+  list-style-type: none;
+}
+
+.permissionToPlay{
+  font-size: 12px;
 }

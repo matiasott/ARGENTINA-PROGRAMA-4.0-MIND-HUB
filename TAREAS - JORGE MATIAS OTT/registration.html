@@ -4,9 +4,194 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <title>REGISTRATION</title>
 </head>
 <body>
+    <header>
+        <h1>MIGHTY DUCKS HOCKEY LEAGUE</h1>
+        <figure>
+          <div class="contenedorIMG">
+            <img class="banner" src="./IMG/design1_image2.jpg" alt="banner" />
+          </div>
+          <img
+            class="logo"
+            src="./IMG/LogoMightyducks-01.png"
+            alt="logo"
+            width="100"
+          />
+        </figure>
+        <h2>REGISTRATION</h2>
+      </header>
+      <section class="distribucion">
+        <nav>
+          <a href="./index.html">HOME</a>
+          <a href="./About _MDHL.html">ABOUT</a>
+          <a href="./contact.html">CONTACT</a>
+          <a href="./rulesofplay-policies.html">RULES OF PLAY & POLICIES</a>
+          <a href="./schedule.htm">SCHEDULE</a>
+          <a class="active" href="#">REGISTRATION</a>
+        </nav>
+        <section class="contenedor-principal">
+            <form action="./show_data.html" method="get">
+              <article>
+                <label class="labelclaves" for="Name">Playe's First Name: </label>
+                <input type="text" name="Name" id="Name" required>
+                <label class="labelclaves" for="">Last Name: </label>
+                <input type="text" name="Last Name" id="Last-Name" required>
+              </article>
+              
+              <article>
+                <label class="labelclaves" for="Steet Address">Steet Address: </label>
+                <input class="spaninput" type="text" name="Steet Address" id="Steet-Address" required>
+              </article>
+
+              <article>
+                <label class="labelclaves" for="City">City: </label>
+                <input type="text" name="City" id="City" required>
+                <label class="labelclaves" for="Zip Code">Zip Code: </label>
+                <input type="text" name="Zip Code" id="Zip-Code" required>
+              </article>
+
+              <article>
+                <label class="labelclaves" for="Birth Date">Birth Date: (mm/dd/yyyy)</label>
+                <input type="date" name="Birth Date" id="Birth-Date" pattern="\d{2}\/\d{2}\/\d{4}" min="1950-01-01" max="2050-12-31" required>  
+                <label class="labelclaves" for="Gender">Gender: </label>
+                <label for=""> Female</label>
+                <input type="radio" name="Gender" id="Female" value="Female" required>
+                <label for=""> Male</label>
+                <input type="radio" name="Gender" id="Male" value="Male" required>
+              </article>
+
+              <article>
+                <label class="labelclaves" for="Grade">Grade: </label>
+                <input type="radio" name="Grade" id="PreSchool" value="Pre-School">
+                <label for="">Pre-School </label>
+                <input type="radio" name="Grade" id="1st" value="1st">
+                <label for="">1st</label>
+                <input type="radio" name="Grade" id="2nd" value="2nd">
+                <label for="">2nd</label>
+                <input type="radio" name="Grade" id="3rt" value="3rt">
+                <label for="">3rt</label>
+                <input type="radio" name="Grade" id="4th" value="4th">
+                <label for="">4th</label>
+                <input type="radio" name="Grade" id="5th" value="5th">
+                <label for="">5th</label>
+              </article>
+              
+              <article>
+                <h3>Which elementary school do you live near?</h3>
+                <label for="Closest School">Closest School: </label>
+                <article>
+                  <ul>
+                    <li class="listaForm">
+                      <input type="checkbox" name="Closest School" id="AJKatzenmair" value="AJ Katzenmair">
+                      <label for="">AJ Katzenmair</label>
+                    </li>
+                    <li class="listaForm">
+                      <input type="checkbox" name="Closest School" id="MarjoriePHart" value="Marjorie P Hart"></dt>
+                      <label for="">Marjorie P Hart</label>
+                    </li>
+                    <li class="listaForm">
+                      <input type="checkbox" name="Closest School" id="Greenbay" value="Greenbay">
+                      <label for="">Greenbay</label>
+                    </li>
+                    <li class="listaForm">
+                      <input type="checkbox" name="Closest School" id="NorthElementary" value="North Elementary">
+                      <label for="">North Elementary</label>
+                    </li>
+                    <li class="listaForm">
+                      <input type="checkbox" name="Closest School" id="HowardAYeager" value="Howard A Yeager">
+                      <label for="">Howard A Yeager</label>
+                    </li>
+                    <li class="listaForm">
+                      <input type="checkbox" name="Closest School" id="SouthElementary" value="South Elementary">
+                      <label for="">South Elementary</label>
+                    </li>
+                  </ul>
+                </article>                
+              </article>
+
+              <article>
+                <h3>What position(s) do you normally play?</h3>
+                <label for="Position"></label>
+                <ul>
+                  <li class="listaForm">
+                    <input type="checkbox" name="Position" id="Forward" value="Forward">
+                    <label for="">Forward</label>
+                  </li>
+                  <li class="listaForm">
+                    <input type="checkbox" name="Position" id="Midfield" value="Midfield">
+                    <label for="">Midfield</label>
+                  </li>
+                  <li class="listaForm">
+                    <input type="checkbox" name="Position" id="Defense" value="Defense">
+                    <label for="">Defense</label>
+                  </li>
+                  <li class="listaForm">
+                    <input type="checkbox" name="Position" id="Goalkeeper" value="Goalkeeper">
+                    <label for="">Goalkeeper</label>
+                  </li>
+                </ul>
+              </article>
+
+              <article>
+                <h3>Uniform Size:</h3>
+                <label for="Uniform Size"></label>
+                <ul>
+                  <li class="listaForm">
+                    <input type="radio" name="Uniform Size" id="YouthSmal" value="Youth Smal">
+                    <label for="">Youth Smal</label>
+                  </li>                
+                  <li class="listaForm">
+                    <input type="radio" name="Uniform Size" id="Medium" value="Medium">
+                    <label for="">Medium</label>
+                  </li>
+                  <li class="listaForm">
+                    <input type="radio" name="Uniform Size" id="YouthMedium" value="Youth Medium">
+                    <label for="">Youth Medium</label>
+                  </li>
+                  <li class="listaForm">
+                    <input type="radio" name="Uniform Size" id="Large" value="Large">
+                    <label for="">Large</label>
+                  </li>
+                  <li class="listaForm">
+                    <input type="radio" name="Uniform Size" id="YouthLarge" value="Youth Large">
+                    <label for="">Youth Large</label>
+                  </li>
+                  <li class="listaForm">
+                    <input type="radio" name="Uniform Size" id="ExtraLarge" value="Extra Large">
+                    <label for="">Extra Large</label>
+                  </li>
+                  <li class="listaForm">
+                    <input type="radio" name="Uniform Size" id="Small" value="Small">
+                    <label for="">Small</Small></label>
+                  </li>
+                </ul>
+      
+              </article>
+
+              <article>
+                <h3>Permission to Play</h3>
+                <p class="permissionToPlay">I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey and in consideration for the "League" accepting the registrant for its hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant's participation in the programand/orbeing transported to or from MDHL sponsored activities, which transportation
+                By signing below, I herebyagree and authorizethe above. In addition, by signing below, lalso acknowledge that I have read the cancellation policy and agree to its terms.</p>
+                <article>
+                  <label class="labelclaves" for="Parent / Guardian Signature">Parent / Guardian Signature: </label>
+                  <input class="spaninput" type="text" name="Parent / Guardian Signature" required>
+                </article>
+                <article>
+                  <label class="labelclaves" for="Date Permission">Date: </label>
+                  <input type="date" name="Date Permission" id="Date-Permission" pattern="\d{2}\/\d{2}\/\d{4}" min="2023-01-01" max="2050-12-31" required>
+                </article>   
+              </article>
+
+              <article>
+                <input class="botonReset" type="reset">
+                <button type="submit">Enviar</button>
+              </article>
+            </form>
+        </section>
     
 </body>
 </html>
