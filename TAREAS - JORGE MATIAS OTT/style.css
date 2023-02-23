@@ -292,15 +292,56 @@ button{
   font-size: 12px;
 }
 
-@media (min-width: 993px){
-  body{
-    background-color: red;
-  }
-}
+/* @media (min-width: 993px){
+  
+} */
 
 
 @media (min-width: 551px) and (max-width: 992px) { 
+  .logo {
+    width: 150px;
+    position: absolute;
+    left: 40%;
+    top: 200px;
+    background-color: transparent;
+  }
+
+  h1{
+    font-size: 30px;
+  }
+
+  h2{
+    font-size: 25px;
+    margin-top: 65px;
+  }
+
+  h3{
+    font-size: 20px;
+  }
+
+  h4{
+    font-size: 19px;
+  }
   
+  p{
+    font-size: 17px;
+  }
+
+  li{
+    font-size:17px;
+  }
+
+  table{
+    align-items: center;
+  }
+
+  td, tr,dd, dl{
+    font-size:16px;
+  }
+
+  label, input, button{
+    font-size:16px;
+  }
   
 }
 
